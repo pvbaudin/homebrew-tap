@@ -1,7 +1,6 @@
 class Lavascii < Formula
   desc "Full-color ASCII lava lamp for your terminal; pipe any text into it"
   homepage "https://github.com/pvbaudin/lavascii"
-  version "0.1.0"
   license "MIT"
 
   on_macos do
