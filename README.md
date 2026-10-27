@@ -3,9 +3,16 @@
 Homebrew formulae for my tools.
 
 ```sh
+brew tap pvbaudin/tap
+brew trust pvbaudin/tap      # trust every formula in this tap
 brew install pvbaudin/tap/lavascii
 brew install pvbaudin/tap/ascii-game-of-life   # installs the `life` command
 ```
+
+Homebrew 7 and later only load formulae from third-party taps that you have
+trusted. `brew trust pvbaudin/tap` trusts the whole tap; to trust a single
+formula instead, use `brew trust --formula pvbaudin/tap/<name>`. On older
+Homebrew, skip the `brew trust` line.
 
 | Formula | Description |
 |---|---|
